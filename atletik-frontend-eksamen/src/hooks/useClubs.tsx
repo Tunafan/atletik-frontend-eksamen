@@ -1,7 +1,6 @@
 // @ts-nocheck
 import { useState, useEffect } from "react";
-
-const API_URL = "http://localhost:8080";
+import { API_URL } from "../config/settings";
 
 export interface Club {
   id: number;
